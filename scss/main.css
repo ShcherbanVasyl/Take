@@ -41,8 +41,6 @@
 
 body {
   font-family: Open Sans, Arial sans-serif;
-  font-weight: 300;
-  color: #fff;
   margin: 0;
   padding: 0;
 }
@@ -50,10 +48,12 @@ body {
 header {
   background: url(../img/header-image.jpg) no-repeat center/cover;
   width: 100%;
-  height: auto;
+  height: 952px;
+  position: relative;
 }
 
 header .container {
+  border: 1px solid red;
   width: 1230px;
   margin: 0 auto;
 }
@@ -61,7 +61,7 @@ header .container {
 header .container .logo {
   display: flex;
   align-items: center;
-  margin-top: 56px;
+  margin-top: 50px;
   margin-left: 30px;
 }
 
@@ -70,7 +70,7 @@ header .container .logo a {
   font-size: 20.8px;
   text-decoration: none;
   color: #fff;
-  margin-left: 10px;
+  margin-left: 8px;
 }
 
 header .container .logo a:hover {
@@ -78,21 +78,92 @@ header .container .logo a:hover {
 }
 
 header .container .picture-perfect {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-top: 330px;
   margin-left: 30px;
 }
 
 header .container .picture-perfect h1 {
   font-size: 60px;
   font-weight: 300;
+  color: #fff;
   margin: 0;
+  margin-top: 350px;
 }
 
 header .container .picture-perfect p {
   font-size: 13px;
-  font-weight: 400;
+  color: #fff;
   margin: 0;
+  margin-top: 10px;
+}
+
+header .container .iphone {
+  width: 716px;
+  height: 948px;
+  transform: translate(500px, -300px);
+}
+
+header .perfect-takpapp {
+  position: absolute;
+  top: 50%;
+  transform: rotate(-90deg);
+  display: flex;
+  align-items: center;
+}
+
+header .perfect-takpapp .perfect {
+  font-size: 12px;
+  font-weight: 300;
+  opacity: 0.6;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+header .perfect-takpapp .takpapp {
+  margin-left: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+section .container {
+  border: 1px solid red;
+  width: 1230px;
+  margin: 0 auto;
+}
+
+section .container .start-lorem-nemo {
+  border: 1px solid green;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+section .container .start-lorem-nemo .start-lorem {
+  width: 570px;
+}
+
+section .container .start-lorem-nemo .start-lorem h2 {
+  font-size: 35px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  margin-top: 110px;
+}
+
+section .container .start-lorem-nemo .start-lorem span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #959595;
+}
+
+section .container .start-lorem-nemo .nemo {
+  width: 570px;
+  margin-bottom: 50px;
+}
+
+section .container .start-lorem-nemo .nemo span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #959595;
 }
