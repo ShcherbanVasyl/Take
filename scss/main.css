@@ -53,7 +53,6 @@ header {
 }
 
 header .container {
-  border: 1px solid red;
   width: 1230px;
   margin: 0 auto;
 }
@@ -61,7 +60,7 @@ header .container {
 header .container .logo {
   display: flex;
   align-items: center;
-  margin-top: 50px;
+  padding-top: 50px;
   margin-left: 30px;
 }
 
@@ -128,13 +127,11 @@ header .perfect-takpapp .takpapp {
 }
 
 section .container {
-  border: 1px solid red;
   width: 1230px;
   margin: 0 auto;
 }
 
 section .container .start-lorem-nemo {
-  border: 1px solid green;
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
@@ -166,4 +163,236 @@ section .container .start-lorem-nemo .nemo span {
   font-size: 14px;
   font-weight: 400;
   color: #959595;
+}
+
+.section-two .container {
+  width: 1230px;
+  margin: 0 auto;
+}
+
+.section-two .container .portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 85px;
+}
+
+.section-two .container .portfolio .design {
+  width: 400px;
+  height: 278px;
+  background-color: #f5989d;
+}
+
+.section-two .container .portfolio .design h3 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  margin-left: 42px;
+}
+
+.section-two .container .portfolio .design p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 42px;
+  width: 302px;
+}
+
+.section-two .container .portfolio .design .find-out {
+  margin-left: 37px;
+  margin-top: 30px;
+}
+
+.section-two .container .portfolio .design .find-out a {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 auto;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.section-two .container .portfolio .design .find-out a:hover {
+  border: 1px solid red;
+}
+
+.section-two .container .portfolio .design .find-out i {
+  margin-left: 10px;
+}
+
+.section-two .container .portfolio .built {
+  width: 400px;
+  height: 278px;
+  background-color: #615f7d;
+}
+
+.section-two .container .portfolio .built h3 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  margin-left: 42px;
+}
+
+.section-two .container .portfolio .built p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 42px;
+  width: 302px;
+}
+
+.section-two .container .portfolio .built .find-out {
+  margin-left: 37px;
+  margin-top: 30px;
+}
+
+.section-two .container .portfolio .built .find-out a {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 auto;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.section-two .container .portfolio .built .find-out a:hover {
+  border: 1px solid red;
+}
+
+.section-two .container .portfolio .built .find-out i {
+  margin-left: 10px;
+}
+
+.section-two .container .portfolio .clients {
+  width: 400px;
+  height: 278px;
+  background: url(../img/layer_6.jpg) center;
+}
+
+.section-two .container .portfolio .clients h3 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  margin-left: 42px;
+}
+
+.section-two .container .portfolio .clients p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 42px;
+  width: 302px;
+}
+
+.section-two .container .portfolio .clients .find-out {
+  margin-left: 37px;
+  margin-top: 30px;
+}
+
+.section-two .container .portfolio .clients .find-out a {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 auto;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.section-two .container .portfolio .clients .find-out a:hover {
+  border: 1px solid red;
+}
+
+.section-two .container .portfolio .clients .find-out i {
+  margin-left: 10px;
+}
+
+.section-two .container .portfolio .sign {
+  width: 800px;
+  height: 278px;
+  background: url(../img/layer_5.jpg) center;
+}
+
+.section-two .container .portfolio .sign h3 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  margin-left: 42px;
+}
+
+.section-two .container .portfolio .sign p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 42px;
+  width: 302px;
+}
+
+.section-two .container .portfolio .sign .find-out {
+  margin-left: 37px;
+  margin-top: 30px;
+}
+
+.section-two .container .portfolio .sign .find-out a {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 auto;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.section-two .container .portfolio .sign .find-out a:hover {
+  border: 1px solid red;
+}
+
+.section-two .container .portfolio .sign .find-out i {
+  margin-left: 10px;
+}
+
+.section-two .container .portfolio .green {
+  width: 400px;
+  height: 278px;
+  background-color: #82ca9c;
+}
+
+.section-two .container .portfolio .green h3 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  margin-left: 42px;
+}
+
+.section-two .container .portfolio .green p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 42px;
+  width: 302px;
+}
+
+.section-two .container .portfolio .green .find-out {
+  margin-left: 37px;
+  margin-top: 30px;
+}
+
+.section-two .container .portfolio .green .find-out a {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 auto;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.section-two .container .portfolio .green .find-out a:hover {
+  border: 1px solid red;
+}
+
+.section-two .container .portfolio .green .find-out i {
+  margin-left: 10px;
 }

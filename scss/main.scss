@@ -24,14 +24,13 @@ header {
   position: relative;
 
   .container {
-    border: 1px solid red;
     width: 1230px;
     margin: 0 auto;
 
     .logo {
       display: flex;
       align-items: center;
-      margin-top: 50px;
+      padding-top: 50px;
       margin-left: 30px;
 
       a {
@@ -103,12 +102,10 @@ header {
 
 section {
   .container {
-    border: 1px solid red;
     width: 1230px;
     margin: 0 auto;
 
     .start-lorem-nemo {
-      border: 1px solid green;
       display: flex;
       justify-content: space-around;
       align-items: flex-end;
@@ -141,6 +138,248 @@ section {
 
         }
       }
+    }
+  }
+}
+
+.section-two {
+
+  .container {
+    width: 1230px;
+    margin: 0 auto;
+
+    .portfolio {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 85px;
+
+
+      .design {
+        width: 400px;
+        height: 278px;
+        background-color: #f5989d;
+
+        h3 {
+          font-size: 30px;
+          font-weight: 300;
+          color: #fff;
+          margin-left: 42px;
+        }
+
+        p {
+          font-size: 13px;
+          font-weight: 400;
+          color: #fff;
+          margin-left: 42px;
+          width: 302px;
+
+        }
+
+        .find-out {
+          margin-left: 37px;
+          margin-top: 30px;
+
+          a {
+            font-size: 14px;
+            font-weight: 700;
+            color: #fff;
+            margin: 0 auto;
+            text-decoration: none;
+            border-radius: 3px;
+            padding: 5px;
+
+            &:hover {
+              border: 1px solid red;
+            }
+          }
+
+          i {
+            margin-left: 10px;
+          }
+        }
+      }
+
+      .built {
+        width: 400px;
+        height: 278px;
+        background-color: #615f7d;
+
+        h3 {
+          font-size: 30px;
+          font-weight: 300;
+          color: #fff;
+          margin-left: 42px;
+        }
+
+        p {
+          font-size: 13px;
+          font-weight: 400;
+          color: #fff;
+          margin-left: 42px;
+          width: 302px;
+
+        }
+
+        .find-out {
+          margin-left: 37px;
+          margin-top: 30px;
+
+          a {
+            font-size: 14px;
+            font-weight: 700;
+            color: #fff;
+            margin: 0 auto;
+            text-decoration: none;
+            border-radius: 3px;
+            padding: 5px;
+
+            &:hover {
+              border: 1px solid red;
+            }
+          }
+
+          i {
+            margin-left: 10px;
+          }
+        }
+      }
+
+      .clients {
+        width: 400px;
+        height: 278px;
+        background: url(../img/layer_6.jpg) center;
+
+        h3 {
+          font-size: 30px;
+          font-weight: 300;
+          color: #fff;
+          margin-left: 42px;
+        }
+
+        p {
+          font-size: 13px;
+          font-weight: 400;
+          color: #fff;
+          margin-left: 42px;
+          width: 302px;
+
+        }
+
+        .find-out {
+          margin-left: 37px;
+          margin-top: 30px;
+
+          a {
+            font-size: 14px;
+            font-weight: 700;
+            color: #fff;
+            margin: 0 auto;
+            text-decoration: none;
+            border-radius: 3px;
+            padding: 5px;
+
+            &:hover {
+              border: 1px solid red;
+            }
+          }
+
+          i {
+            margin-left: 10px;
+          }
+        }
+      }
+
+      .sign {
+        width: 800px;
+        height: 278px;
+        background: url(../img/layer_5.jpg) center;
+
+        h3 {
+          font-size: 30px;
+          font-weight: 300;
+          color: #fff;
+          margin-left: 42px;
+        }
+
+        p {
+          font-size: 13px;
+          font-weight: 400;
+          color: #fff;
+          margin-left: 42px;
+          width: 302px;
+
+        }
+
+        .find-out {
+          margin-left: 37px;
+          margin-top: 30px;
+
+          a {
+            font-size: 14px;
+            font-weight: 700;
+            color: #fff;
+            margin: 0 auto;
+            text-decoration: none;
+            border-radius: 3px;
+            padding: 5px;
+
+            &:hover {
+              border: 1px solid red;
+            }
+          }
+
+          i {
+            margin-left: 10px;
+          }
+        }
+      }
+
+      .green {
+        width: 400px;
+        height: 278px;
+        background-color: #82ca9c;
+
+        h3 {
+          font-size: 30px;
+          font-weight: 300;
+          color: #fff;
+          margin-left: 42px;
+        }
+
+        p {
+          font-size: 13px;
+          font-weight: 400;
+          color: #fff;
+          margin-left: 42px;
+          width: 302px;
+
+        }
+
+        .find-out {
+          margin-left: 37px;
+          margin-top: 30px;
+
+          a {
+            font-size: 14px;
+            font-weight: 700;
+            color: #fff;
+            margin: 0 auto;
+            text-decoration: none;
+            border-radius: 3px;
+            padding: 5px;
+
+            &:hover {
+              border: 1px solid red;
+            }
+          }
+
+          i {
+            margin-left: 10px;
+          }
+        }
+      }
+
     }
   }
 }
