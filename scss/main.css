@@ -211,6 +211,7 @@ section .container .start-lorem-nemo .nemo span {
   text-decoration: none;
   border-radius: 3px;
   padding: 5px;
+  border: 1px solid transparent;
 }
 
 .section-two .container .portfolio .design .find-out a:hover {
@@ -255,6 +256,7 @@ section .container .start-lorem-nemo .nemo span {
   text-decoration: none;
   border-radius: 3px;
   padding: 5px;
+  border: 1px solid transparent;
 }
 
 .section-two .container .portfolio .built .find-out a:hover {
@@ -299,6 +301,7 @@ section .container .start-lorem-nemo .nemo span {
   text-decoration: none;
   border-radius: 3px;
   padding: 5px;
+  border: 1px solid transparent;
 }
 
 .section-two .container .portfolio .clients .find-out a:hover {
@@ -354,6 +357,7 @@ section .container .start-lorem-nemo .nemo span {
   text-decoration: none;
   border-radius: 3px;
   padding: 5px;
+  border: 1px solid transparent;
 }
 
 .section-two .container .portfolio .sign .find-out a:hover {
@@ -409,6 +413,7 @@ section .container .start-lorem-nemo .nemo span {
   text-decoration: none;
   border-radius: 3px;
   padding: 5px;
+  border: 1px solid transparent;
 }
 
 .section-two .container .portfolio .green .find-out a:hover {
@@ -516,6 +521,7 @@ section .container .start-lorem-nemo .nemo span {
   text-decoration: none;
   border-radius: 3px;
   padding: 5px;
+  border: 1px solid transparent;
 }
 
 .section-four .container .more-power .see-options a:hover {
@@ -581,4 +587,102 @@ section .container .start-lorem-nemo .nemo span {
   transform: rotate(-90deg);
   top: 30%;
   margin-left: 20px;
+}
+
+.container {
+  width: 1230px;
+  margin: 0 auto;
+}
+
+.section-six {
+  background-color: #f6f7fa;
+  height: 630px;
+}
+
+.go-team {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+.solo-plan {
+  width: 570px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.solo-plan_on-click {
+  background-color: blue;
+}
+
+.legacy-most-popular {
+  margin-left: 53px;
+  margin-top: 48px;
+}
+
+.legacy-most-popular span {
+  font-size: 11px;
+  font-weight: 800;
+  padding: 8px 18px 8px 18px;
+  background-color: #e1e1e1;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.solo {
+  margin-top: 24px;
+  margin-left: 53px;
+}
+
+.solo span {
+  font-size: 30px;
+  font-weight: 300;
+  color: #2e3b4e;
+  margin-top: 24px;
+}
+
+.solo p {
+  margin: 0;
+  margin-top: 15px;
+  width: 410px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #8297a7;
+}
+
+.buy-now {
+  margin-top: 35px;
+  margin-left: 53px;
+}
+
+.buy-now a {
+  background-color: #82ca9c;
+  padding: 15px 30px;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.sotial {
+  margin-top: 35px;
+  margin-left: 53px;
+  padding-bottom: 54px;
+}
+
+.sotial a {
+  margin-left: 10px;
+  color: #c5c5c5;
+}
+
+.bolt {
+  font-size: 50px;
+  color: red;
+}
+
+.bolt_click {
+  color: blue;
 }
